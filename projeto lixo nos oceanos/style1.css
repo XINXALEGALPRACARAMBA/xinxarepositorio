@@ -1,0 +1,23 @@
+body, html {height: 100%;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif;}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/images/uma-mulher-nadando-profundamente-com-peixes-abaixo-gerados-por-ia.jpg");
+  min-height: 90%;
+}
+
+.countdown-container{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  myNavbar, home {
+    width: 100%;
+  }
+
+}
+  
